@@ -1,0 +1,2 @@
+slice method = cut and brings the string 
+str,slice(startindex,endindex);
