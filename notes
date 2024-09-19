@@ -1,2 +1,9 @@
+
+slice
 slice method = cut and brings the string 
 str,slice(startindex,endindex);
+
+
+// replace and repeat
+msg.repeat(counter)
+msg.replace("whattoreplace","replaceword")
