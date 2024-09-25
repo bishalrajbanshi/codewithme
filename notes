@@ -7,3 +7,16 @@ str,slice(startindex,endindex);
 // replace and repeat
 msg.repeat(counter)
 msg.replace("whattoreplace","replaceword")
+
+//string 
+exapmle1.concat(example2) //join two strings
+
+//array search
+example.indexOf("example") //return the index of a example if it doesnot exist it retun -1
+
+example.inclure("example")//if the example in an array it returns true if it doesnot exist it returns false
+
+//in js if we reverse the array it also changes in original array
+
+//slice in array
+Array.slice("startidx","endidx")// it reutrn new array and doesnot make changes in original array
