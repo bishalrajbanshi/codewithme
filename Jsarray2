@@ -23,4 +23,16 @@ console.log(pr.slice(1,3));
 console.log(pr);
 
 
+console.log(months.slice(0,4))
+console.log(months.splice());
+console.log(months.slice(months.length-1));
+
+
+
+
+
+
+
+
+
 

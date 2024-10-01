@@ -10,8 +10,12 @@ console.log(str.indexOf("g"))
 
 // //replace "I" with "T"
 
-// console.time();
+console.time()
 let st = "apnacollage"
+
+console.log(st.repeat(2));
+
+
 newstr  = st.slice(4).replace('l','t').replace('l','t')
 console.log(newstr);
 

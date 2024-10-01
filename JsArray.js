@@ -37,6 +37,7 @@ console.log(block);
 // ["july","june","march","august"] finaloutput
 
 let months = ["january","july","march","august"]
+
 console.log(months);
 //removed
 months.shift()
@@ -47,6 +48,8 @@ console.log(months);
 months.unshift("june")
 months.unshift("july")
 console.log(months);
+
+
 
 
 
