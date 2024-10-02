@@ -31,4 +31,4 @@ str.toUpperCase("remove from end")
 str.unShift("add to start")
 str.shift("remove form start")
 
-// js array is muitable
+// js array is muitable changes can be made in original array
