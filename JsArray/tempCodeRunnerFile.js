@@ -1,3 +1,4 @@
-console.log(st.concat(stt));
-
-// console.log(stt.reverse());
+ // for(let j = 0; j < country[i.length]; i++){
+    //     console.log(country[i][j]);
+        
+    // }

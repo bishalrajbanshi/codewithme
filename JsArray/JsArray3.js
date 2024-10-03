@@ -47,6 +47,79 @@ console.log(colors);
 colors.splice(6,1,"collage")
 console.log(colors);
 
+//sort method convert the numbses into string and short them this is used in char or string 
+let ch = ['f','a','r','t']
+console.log(ch.sort());
+
+
+//using splice make like the start array to final
+//final = ["july","june","march","august"]
+let start = ["january","july","march","august"]
+console.log(start);
+
+start.splice(0,2,"july","june")
+console.log(start);
+
+let lang = ["c","c++", "html","javascript","python", "java"]
+console.log(lang.reverse().indexOf("javascript"));
+
+let name1 = "b"
+let name2 = "b"
+console.log(name1 === name2);
+
+
+let arr = ['a','b','c']
+
+let arr2 = ['a']
+console.log(arr === arr2);
+
+//array copy
+let arrcpy = arr
+console.log(arr);
+
+arr.push("name")
+console.log(arrcpy);
+console.log(arr);
+
+
+console.log(arr === arrcpy)
+// note
+//new array = new address
+
+
+
+//the number is constant not array value
+const number = [1,2,3]
+number.push(77)
+//this is not possible in constant array
+// number = arr
+console.log(number);
+
+
+//nested array or multidimensional array
+//to access the nums array value nums[row][col]
+let nums =[[1,2],[3,4],[5,6,9,8]]
+console.table(nums[2][2]);
+
+
+
+let game = [
+    ["x",null,0],
+    [null,"x",null],
+    [0,null,"x"]
+]
+console.table(game);
+console.log(game[1][2]);
+
+
+
+
+
+
+
+
+
+
 
 
 

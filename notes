@@ -32,3 +32,14 @@ str.unShift("add to start")
 str.shift("remove form start")
 
 // js array is muitable changes can be made in original array
+
+
+
+//note 
+//array refrence  = address in memory
+//refrence variable keep the memory address not the value
+
+//in array the const array means you cannot assign the new array to const array but the is not constant and it  is dyanmic 
+
+
+//assignmant ot constant variable is not possible
