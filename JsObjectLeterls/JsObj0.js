@@ -26,4 +26,16 @@ const product =  {
 console.log(product);
 console.log(typeof(product));
 
+//Create an object literal for the properties of threadl twitter post which includes -
+
+const post = {
+    username:"@name",
+    content:"video",
+    likes:100,
+    repostt:11,
+    tag:["@apnacollage","delta","sigma"]
+}
+let prop = "repostt"
+console.log(post[prop]);
+
 
