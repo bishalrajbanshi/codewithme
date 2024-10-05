@@ -40,6 +40,9 @@ str.shift("remove form start")
 //refrence variable keep the memory address not the value
 
 //in array the const array means you cannot assign the new array to const array but the is not constant and it  is dyanmic 
-
-
 //assignmant ot constant variable is not possible
+
+//objextleterls is used to keep the complex data 
+//object leterls keep the key and its value
+
+
