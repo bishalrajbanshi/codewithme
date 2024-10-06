@@ -9,7 +9,7 @@
 
 //arraydecleration has not clearity
 // let std = ["bishal",00,"India"]
-
+//Js automatically converts onject key to
 //object leterls
 const student = {
     name : "bishal",

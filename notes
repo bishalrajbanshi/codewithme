@@ -46,3 +46,13 @@ str.shift("remove form start")
 //object leterls keep the key and its value
 
 
+
+//math object in js
+//use Math.objectname
+//change positive to negative and  negative to positive
+// Math.abs for absolute value
+
+//Math.pow(a,b)
+//Math.floor() uset to roundoff nearest smallest value
+//Math.cell()uset to roundoff nearest largest value
+// Math.Random() take the random value from 0 to 1
