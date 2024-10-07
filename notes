@@ -1,58 +1,58 @@
-// string is immutable in js "once it is created it cannot be changed"
+// // string is immutable in js "once it is created it cannot be changed"
 
-// slice
-// slice method = cut and brings the string 
-str.slice(startindex,endindex);
-
-
-// replace and repeat
-msg.repeat(counter)
-msg.replace("whattoreplace","replaceword")
-
-//string 
-exapmle1.concat(example2) //join two strings
-
-//array search
-example.indexOf("example") //return the index of a example if it doesnot exist it retun -1
-
-example.include("example")//if the example in an array exist returns true if it doesnot exist it returns false
-
-//in js if we reverse the array it also changes in original array
-
-//slice in array
-Array.slice("startidx","endidx")// it reutrn new array and doesnot make changes in original array
-
-//spliace
-Array.splice("startnumber","deletecount")
-
-// array
-str.push("add to end")
-str.toUpperCase("remove from end")
-str.unShift("add to start")
-str.shift("remove form start")
-
-// js array is muitable changes can be made in original array
+// // slice
+// // slice method = cut and brings the string 
+// str.slice(startindex,endindex);
 
 
+// // replace and repeat
+// msg.repeat(counter)
+// msg.replace("whattoreplace","replaceword")
 
-//note 
-//array refrence  = address in memory
-//refrence variable keep the memory address not the value
+// //string 
+// exapmle1.concat(example2) //join two strings
 
-//in array the const array means you cannot assign the new array to const array but the is not constant and it  is dyanmic 
-//assignmant ot constant variable is not possible
+// //array search
+// example.indexOf("example") //return the index of a example if it doesnot exist it retun -1
 
-//objextleterls is used to keep the complex data 
-//object leterls keep the key and its value
+// example.include("example")//if the example in an array exist returns true if it doesnot exist it returns false
+
+// //in js if we reverse the array it also changes in original array
+
+// //slice in array
+// //Array.slice("startidx","endidx")// it reutrn new array and doesnot make changes in original array
+
+// //spliace
+// // Array.splice("startnumber","deletecount")
+
+// // array
+// // str.push("add to end")
+// // str.toUpperCase("remove from end")
+// // str.unShift("add to start")
+// // str.shift("remove form start")
+
+// // js array is muitable changes can be made in original array
 
 
 
-//math object in js
-//use Math.objectname
-//change positive to negative and  negative to positive
-// Math.abs for absolute value
+// //note 
+// //array refrence  = address in memory
+// //refrence variable keep the memory address not the value
 
-//Math.pow(a,b)
-//Math.floor() uset to roundoff nearest smallest value
-//Math.cell()uset to roundoff nearest largest value
-// Math.Random() take the random value from 0 to 1
+// //in array the const array means you cannot assign the new array to const array but the is not constant and it  is dyanmic 
+// //assignmant ot constant variable is not possible
+
+// //objextleterls is used to keep the complex data 
+// //object leterls keep the key and its value
+
+
+
+// //math object in js
+// //use Math.objectname
+// //change positive to negative and  negative to positive
+// // Math.abs for absolute value
+
+// //Math.pow(a,b)
+// //Math.floor() uset to roundoff nearest smallest value
+// //Math.cell()uset to roundoff nearest largest value
+// // Math.Random() take the random value from 0 to 1

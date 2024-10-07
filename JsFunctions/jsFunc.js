@@ -32,3 +32,46 @@ function car(name,model){
 car("fortuner",2021)
 //in function with argument the value should pass according to the parameter sequence
 car(2023) //diaplay wrong information
+
+
+
+//avg of 3 num
+function avg(a,b,c){
+    let av = (a+b+c) / 3
+    console.log(av);
+}
+avg(55,55,33)
+
+
+//multiplication table
+
+function table(num){
+    for(let i = 1; i <= 10; i++){
+        console.log(`${num} * ${i} = ${num*i}`);
+    }
+}
+
+table(2) 
+
+
+//return value
+function sum(a,b){
+    return a + b
+}
+//callig sum function multiple times
+let result = sum(sum(sum(4,4),4),4)
+console.log(result);
+
+
+//concinate array string
+let str = ["hi","hello","buy"]
+
+function concat(st){
+    let rest = ""
+   for(let i = 0; i < st.length; i++){
+    rest += st[i]
+   }
+return rest
+  
+}
+console.log(concat(str));
