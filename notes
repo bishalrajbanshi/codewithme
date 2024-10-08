@@ -56,3 +56,22 @@
 // //Math.floor() uset to roundoff nearest smallest value
 // //Math.cell()uset to roundoff nearest largest value
 // // Math.Random() take the random value from 0 to 1
+
+
+
+
+
+//js scope
+//Scope determines the accessibility of variables, objects, and functions from different parts  of the code.
+
+//Function Scope
+//Variables defined inside a function are not accessible (visible) from outside the function.
+//Function Scope Variables defined inside a function are not accessible (visible) from outside the function.
+
+
+//-Block Scope
+//Variables declared inside a { ) block cannot be accessed from outside the block.
+
+//Lexical Scope
+//a variable defined outside a function can be accessible inside another function defined after the variable declaration.
+// The opposite is NOT true.
