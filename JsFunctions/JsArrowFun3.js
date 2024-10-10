@@ -10,3 +10,22 @@ const mul = (a,b)=>{
 }
 // mul(2,2)
 console.log(mul(2,2));
+
+
+
+//arrow function 
+//implicite (automatic) return
+const sum = (a,b) =>(a+b)
+console.log(sum(3,3));
+
+
+//set time out
+//setTimeout("function i.e callback function",time)
+console.log("hello!");
+
+setTimeout( () =>{
+    console.log("bishal");
+},4000)
+
+console.log("buy");
+ 
