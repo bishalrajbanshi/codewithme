@@ -31,3 +31,17 @@ function getUnique(str){
 }
 console.log(getUnique(str));
 
+// Write a JavaScript function to generate a random number within a range  (start, end).
+
+let start = 10;
+let end = 20;
+
+function generateRandomNumber(start, end) {
+    let diff = end - start + 1 ;//end - start i.e 20 -10 = 10 +1 = 11 because add 1 is to make the range that include 10 an 20
+    return Math.floor(Math.random() * diff) + start;
+     // Ensure positive difference [i.e 20 - 10 = 10,now if math.random() generate 0.6 * 10 and math.floor() = 6 and add + start i.e 16]
+}
+
+console.log(generateRandomNumber(start, end));
+
+
