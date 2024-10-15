@@ -28,4 +28,14 @@ setTimeout( () =>{
 },4000)
 
 console.log("buy");
+
+//set time interval 
+// time -> excute -> time -> excute
+
+let idx = setInterval(() => {
+    console.log("apna collage");
+    
+}, 2000);
+
+
  

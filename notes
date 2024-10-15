@@ -25,6 +25,8 @@
 // //spliace
 // // Array.splice("startnumber","deletecount")
 
+//use split('') to convert the string into an array of characters.
+
 // // array
 // // str.push("add to end")
 // // str.toUpperCase("remove from end")
@@ -81,3 +83,18 @@
 //try & catch
 //The try statement allows you to define a block of code to be tested for errors while it is being executed.
 //The catch statement allows you to define a block of code to be executed, if an error occurs in the try block;
+
+//implicite return is automatically return 
+
+
+//callback function is the function that goes as a argument to another function
+
+
+
+// this with arrow function
+
+//Arrow function
+// lexical scope -> parent scope = this
+
+//function
+// scope => this -> calling object
