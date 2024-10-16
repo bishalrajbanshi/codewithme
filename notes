@@ -98,3 +98,13 @@
 
 //function
 // scope => this -> calling object
+
+
+
+//reduce function
+//Reduces the array to a single value
+//arr.reduce(reducer function with 2 variables for (accumulator,element))
+
+
+//spread
+//expand an iterable into multiple value

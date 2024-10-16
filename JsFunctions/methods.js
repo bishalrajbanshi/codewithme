@@ -89,3 +89,45 @@ let somefunc = numbs.some((el) =>{
     return el % 2 == 0; // [logical OR]
 })
 console.log(somefunc);
+ 
+
+
+
+//reducer function
+let reducer = [1,2,3,4,5]
+let rdx = reducer.reduce((res,ele) =>{
+    console.log(res);
+  return  res+ele
+})
+console.log(rdx);
+
+//max in array
+let max = [2,4,10,11,22,100,1,6,7]
+// let m = -1
+// for(let i = 0; i< max.length; i++){
+//     if (max[i] > m) {
+//         m = max[i]
+//     }
+// }
+// console.log(m);
+
+
+//max using reducer
+//reducer function provide the single value result according to the condition 
+let ans = max.reduce((result,element)=>{
+    
+    if (element > result) {
+        return element
+    }else{
+        return result 
+    }
+})
+console.log(ans);
+
+
+
+//spread 
+let arr1 =  [2,4,10,11,22,100,1,6,7]
+// Math.max(arr1[0],arr1[1]) we dont need to pass the each individual value the spread function takes the individual value
+let arr1res = Math.min(...arr1)
+console.log(arr1res);
