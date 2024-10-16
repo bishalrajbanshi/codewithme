@@ -27,5 +27,7 @@ const student = {
 // console.log(student.getName());
 
 
-console.log(student.getInfo2);
+// console.log(student.getInfo2);
+
+
 

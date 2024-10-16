@@ -131,3 +131,21 @@ let arr1 =  [2,4,10,11,22,100,1,6,7]
 // Math.max(arr1[0],arr1[1]) we dont need to pass the each individual value the spread function takes the individual value
 let arr1res = Math.min(...arr1)
 console.log(arr1res);
+console.log(arr1); //printing in array
+console.log(...arr1);//individual printing
+
+
+
+arr1.push(9000)
+console.log(arr1);
+
+let arr2 = [...arr1]
+arr2.push(22)
+console.log(arr2);
+
+let str1 = "hello bishal"
+console.log(...str1);
+
+
+let newarr = [...arr1,...reducer]
+console.log(...newarr);
