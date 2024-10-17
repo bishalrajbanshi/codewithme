@@ -76,7 +76,7 @@ let nu = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let ev = nu.filter((el) => {
     return el % 2 == 0; // it returns the value according to the return confition it could be true or false
 });
-console.log(ev);
+console.log("filter",ev);
 
 //Every Returns true if every element of array gives true for some function. Else returns false.
 let numbs = [2,4,6,8,10,7]
@@ -149,3 +149,36 @@ console.log(...str1);
 
 let newarr = [...arr1,...reducer]
 console.log(...newarr);
+
+
+//spread object leterls
+const data = {
+    name:"bishha",
+    email:"bishal@gmail.com"
+}
+
+const dataCopy = {...data}
+console.log(dataCopy);
+ 
+
+let arr0 = [1,2,3,4,5] //array only have value
+let obj0 = {...arr0} //obj-> key:val
+console.log(obj0);
+
+
+//rest
+ function sum(...args){ //take the infinite numbers of arguments
+    for(let i=0; i<args.length; i++){
+        console.log("gave us : ",args[i]);
+        
+    }
+ }
+ sum(1,2,3)
+
+
+ function min(...args){
+    console.log(Math.min(...args));
+ }
+ min(6,3,1,4,7,5)
+
+ 

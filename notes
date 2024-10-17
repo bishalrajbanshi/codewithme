@@ -107,4 +107,8 @@
 
 
 //spread
-//expand an iterable into multiple value
+//expand an iterable into multiple value it takes the single value like array string and give multiple value
+
+
+//Rest Allows a function to take an indefinite number of arguments and bundle them in an array
+//funv(...args){}
