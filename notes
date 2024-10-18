@@ -112,3 +112,5 @@
 
 //Rest Allows a function to take an indefinite number of arguments and bundle them in an array
 //funv(...args){}
+
+//Destructuring Storing values of array into multiple variables

@@ -182,3 +182,28 @@ console.log(obj0);
  min(6,3,1,4,7,5)
 
  
+
+ //distructuring
+ let names = ["tonny","bruce","peter","steve","bishal","fhaksh"]
+//  let winner = names[0]
+//  let runnerup = names[2]
+
+//creating individuals variables for array names
+let [winner,runnerup,second,...others]  = names
+console.log(winner,runnerup,second,others);
+
+
+// distructuring object leterls
+
+const stds = {
+    name:"aka",
+    age:13,
+    class:10,
+    subject : ["math","science","rnglish","hindi"],
+    username:"aka@gmail.com",
+    password : "sbgkja"
+}
+
+//username is the key and storing username value in user
+let {username:user,password,subject:[sub1,sub2,sub3,sub4]} = stds
+console.log(user,password);
