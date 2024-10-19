@@ -114,3 +114,16 @@
 //funv(...args){}
 
 //Destructuring Storing values of array into multiple variables
+
+  
+//DOM Document Object Model
+The DOM represent a document with a logical tree
+It allows us to manupulate change webpage content (HTML elements )
+
+using properties and methods
+
+innerText - shows the visible texxt contained in a node
+
+textContext - shows all the full text(hidden also)
+
+innerHTML - shows the full markup (html)
