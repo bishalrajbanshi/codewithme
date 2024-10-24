@@ -127,3 +127,14 @@ innerText - shows the visible texxt contained in a node
 textContext - shows all the full text(hidden also)
 
 innerHTML - shows the full markup (html)
+
+
+More Events
+change event
+The change event occurs when the value of an element has been changed (only works on <input>, <textarea> and <select> elements).
+input event
+The input event fires when the value of an , , or element has been changed.
+
+
+call stack
+Breakpoints - used for debugging
