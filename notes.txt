@@ -138,3 +138,23 @@ The input event fires when the value of an , , or element has been changed.
 
 call stack
 Breakpoints - used for debugging
+
+callback = take the function as argument to another function
+
+
+JS memory
+primitive(stack) getcopy(variable)
+let x = "hello"
+let y = x copy of x is given to y
+
+nonprimitive(heap) getrefrence() changes in original value
+
+
+promises
+The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.(the task you gave is loaded in queue but cannot complet immidately or not loaded)(complet in future) eg youtube videos 
+pending: initial state, neither fulfilled nor rejected.
+fulfilled: meaning that the operation was completed successfully.
+rejected: meaning that the operation failed.
+
+
+JS single threaded (One work at a time)
