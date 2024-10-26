@@ -158,3 +158,5 @@ rejected: meaning that the operation failed.
 
 
 JS single threaded (One work at a time)
+
+when we want to store the vslue in multiple variables 
