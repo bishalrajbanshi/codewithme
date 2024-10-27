@@ -22,6 +22,8 @@ let {username:uname} = student
 console.log(uname);
 let {city  = "mumbai"} = student
 console.log(city);
+console.log(student);
+
 
 
 const obj = Object.entries(student)
