@@ -150,7 +150,7 @@ let y = x copy of x is given to y
 nonprimitive(heap) getrefrence() changes in original value
 
 
-promises
+promises = work
 The Promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.(the task you gave is loaded in queue but cannot complet immidately or not loaded)(complet in future) eg youtube videos 
 pending: initial state, neither fulfilled nor rejected.
 fulfilled: meaning that the operation was completed successfully.
@@ -160,3 +160,74 @@ rejected: meaning that the operation failed.
 JS single threaded (One work at a time)
 
 when we want to store the vslue in multiple variables 
+
+
+
+1. Callback-based, Non-blocking (.then / .catch)
+In the .then/.catch style, the code is executed asynchronously through callbacks. This means that after you initiate a promise (like a network request), the rest of your code continues to run without waiting for the promise to resolve. The handling of the result happens later, in the callback functions.
+function fetchUserData(userId) {
+  console.log('Fetching user data...'); // This executes first
+
+  fetch(`https://api.example.com/users/${userId}`)
+    .then(response => {
+      console.log('Response received'); // This executes after the fetch completes
+      if (!response.ok) {
+        throw new Error('User not found');
+      }
+      return response.json();
+    })
+    .then(userData => {
+      console.log('User Data:', userData); // This executes after parsing the JSON
+    })
+    .catch(error => {
+      console.error('Error fetching user data:', error); // This executes if there's an error
+    });
+
+  console.log('Fetch initiated'); // This executes immediately after initiating the fetch
+}
+
+// Call the function
+fetchUserData(1);
+
+Fetching user data...
+Fetch initiated
+Response received
+User Data: { ... }
+
+
+2. Synchronous-like Flow (async / await)
+With async/await, the code execution appears to be more sequential. The await keyword pauses the execution of the function until the promise is resolved, making it look like synchronous code.
+
+async function fetchUserData(userId) {
+  console.log('Fetching user data...'); // This executes first
+
+  try {
+    const response = await fetch(`https://api.example.com/users/${userId}`);
+    console.log('Response received'); // This executes after the fetch completes
+
+    if (!response.ok) {
+      throw new Error('User not found');
+    }
+
+    const userData = await response.json();
+    console.log('User Data:', userData); // This executes after parsing the JSON
+  } catch (error) {
+    console.error('Error fetching user data:', error); // This executes if there's an error
+  }
+
+  console.log('Fetch completed'); // This executes after the try-catch block
+}
+
+// Call the function
+fetchUserData(1);
+
+Fetching user data...
+Response received
+User Data: { ... }
+Fetch completed
+
+In this case, the execution flow is more linear. Each line of code after await waits for the previous promise to resolve. As a result, the sequence of logs is clearer and more intuitive, resembling traditional synchronous code execution.
+
+Summary
+.then / .catch: Code executes in a non-blocking manner. The program continues to run while waiting for the promise, which can lead to a more complex flow and callback nesting.
+async / await: Code execution appears synchronous, making it easier to read and understand. Each await statement pauses execution until the promise is resolved, simplifying the control flow.
