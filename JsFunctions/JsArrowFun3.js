@@ -10,10 +10,11 @@ const mul = (a,b)=>{
 }
 // mul(2,2)
 console.log(mul(2,2));
+console.log(mul(2,2));
 
 
 
-//arrow function 
+//arrow function
 //implicite (automatic) return
 const sum = (a,b) =>(a+b)
 console.log(sum(3,3));
