@@ -47,3 +47,5 @@ function sum(...args){
     return args.map((el)=>el*2)
 }
 console.log(sum(2,3,4,5));
+
+
