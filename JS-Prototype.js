@@ -62,3 +62,15 @@ const TAsupport = {
 
 //modern syntax
 Object.setPrototypeOf(teachingSupport,Teacher)
+
+
+
+let uname = "  bishal"
+
+Object.prototype.uppercase = function(){
+     console.log(`${this.toUpperCase().trim().length}`);  
+}
+
+uname.uppercase()
+
+

@@ -1,4 +1,4 @@
-jasahe new keyword ko kam ma loga ta constructor call hoga
+//jasahe new keyword ko kam ma loga ta constructor call hoga
 
 
 class User {

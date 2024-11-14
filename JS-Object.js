@@ -1,13 +1,24 @@
 function addnum(num){
      return num+5
 }
+addnum(3)
+addnum.multiply = function(x){
+     return x * 2
+}
 
-addnum.power = 2
+console.log(addnum.multiply(3));
 
+// function multiply(x){
+//      return x*2
+// }
 
-// console.log(addnum(5));
-// console.log(addnum.power);
-// console.log(addnum.prototype);
+// addnum.multiply(3)
+
+// console.log(addnum.multiply(3));
+
+console.log(addnum(5));
+console.log(addnum.power);
+console.log(addnum.prototype);
 
 
 //this => current context

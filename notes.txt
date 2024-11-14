@@ -232,3 +232,9 @@ In this case, the execution flow is more linear. Each line of code after await w
 Summary
 .then / .catch: Code executes in a non-blocking manner. The program continues to run while waiting for the promise, which can lead to a more complex flow and callback nesting.
 async / await: Code execution appears synchronous, making it easier to read and understand. Each await statement pauses execution until the promise is resolved, simplifying the control flow.
+
+
+
+//call,bind,apply
+
+
